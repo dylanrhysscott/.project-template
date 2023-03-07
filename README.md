@@ -1,2 +1,3 @@
 # .project-template
-A repo template for a Dev Container project
+
+A repo template for a cloud native Dev Container project

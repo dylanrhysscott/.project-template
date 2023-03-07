@@ -1,0 +1,19 @@
+{
+    "image": "debian:latest",
+    "forwardPorts": [ 3000 ],
+    "customizations": {
+      "vscode": {
+        // Add the IDs of extensions you want installed when the container is created.
+        "extensions": [
+          "golang.go",
+          "hashicorp.terraform",
+          "hashicorp.hcl"
+        ]
+      }
+    },
+    "features": {
+      "ghcr.io/dylanrhysscott/cloud-native-features/packer:1": {},
+      "ghcr.io/dylanrhysscott/cloud-native-features/terraform:1": {},
+      "ghcr.io/dylanrhysscott/cloud-native-features/kubetools:0": {}
+    }
+  }
